@@ -366,7 +366,7 @@ BOOL CSoundFile::ProcessRow()
 				if ((m_nPattern == 0xFF) || (m_nCurrentPattern >= MAX_ORDERS))
 				{
 					//if (!m_nRepeatCount)
-						return FALSE;     //never repeat entire song
+				        //return FALSE;     //never repeat entire song
 					if (!m_nRestartPos)
 					{
 						m_nMusicSpeed = m_nDefaultSpeed;
